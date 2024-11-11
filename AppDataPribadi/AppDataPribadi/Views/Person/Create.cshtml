@@ -1,0 +1,62 @@
+﻿@model AppDataPribadi.Models.Person
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = null;
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="header">
+            <i class="fa-solid fa-user-plus"></i>
+            <h1>Aplikasi Data Pribadi</h1>
+        </div>
+        <h4>Tambah Data Baru</h4>
+
+        <form asp-action="Create" onsubmit="return SubmitForm(this);">
+            <div class="mb-3 form-group">
+                <label>NIK</label>
+                <input asp-for="NIK" class="form-control" />
+            </div>
+            <div class="mb-3 form-group">
+                <label>Nama Lengkap</label>
+                <input asp-for="NamaLengkap" class="form-control" />
+            </div>
+            <div class="mb-3 form-group">
+                <label>Jenis Kelamin</label><br />
+                <input asp-for="JenisKelamin" type="radio" value="Laki-laki" /> Laki-laki
+                <input asp-for="JenisKelamin" type="radio" value="Perempuan" /> Perempuan
+            </div>
+            <div class="mb-3 form-group">
+                <label>Tanggal Lahir</label>
+                <input asp-for="TanggalLahir" class="form-control" type="date" />
+            </div>
+            <div class="mb-3 form-group">
+                <label>Alamat</label>
+                <textarea asp-for="Alamat" class="form-control"></textarea>
+            </div>
+            <div class="mb-3 form-group">
+                <label>Negara</label>
+                <select asp-for="Negara" class="form-control">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Rusia">Rusia</option>
+                    <option value="Malaysia">Malaysia</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Simpan</button>
+            <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "Person")'">Kembali</button>
+        </form>
+
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

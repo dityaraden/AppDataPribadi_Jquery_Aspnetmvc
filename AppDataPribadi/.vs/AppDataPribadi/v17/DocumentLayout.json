@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\App\\AppDataPribadi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\views\\person\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\views\\person\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\views\\person\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\views\\person\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\views\\person\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\views\\person\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\views\\person\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\views\\person\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|d:\\app\\appdatapribadi\\appdatapribadi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{340D1D62-EFAD-4455-A5B1-8945C379646F}|AppDataPribadi\\AppDataPribadi.csproj|solutionrelative:appdatapribadi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "AppDataPribadi\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "AppDataPribadi\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwHgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-09T22:50:40.273Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Views\\Person\\Create.cshtml",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Create.cshtml",
+              "RelativeToolTip": "AppDataPribadi\\Views\\Person\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T11:53:36.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Views\\Person\\Edit.cshtml",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Edit.cshtml",
+              "RelativeToolTip": "AppDataPribadi\\Views\\Person\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T04:49:17.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Models\\Person.cs",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Models\\Person.cs",
+              "RelativeToolTip": "AppDataPribadi\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:40:03.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Program.cs",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Program.cs",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Program.cs",
+              "RelativeToolTip": "AppDataPribadi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:39:23.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppDataPribadi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwEgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T21:25:07.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AppDataPribadi\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AppDataPribadi\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAFQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-09T21:06:50.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Views\\Person\\Index.cshtml",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Index.cshtml",
+              "RelativeToolTip": "AppDataPribadi\\Views\\Person\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T18:16:07.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Controllers\\PersonController.cs",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "AppDataPribadi\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:14:59.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Details.cshtml",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Views\\Person\\Details.cshtml",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Details.cshtml",
+              "RelativeToolTip": "AppDataPribadi\\Views\\Person\\Details.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T05:55:47.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AppDataPribadi\\Views\\Person\\Delete.cshtml",
+              "ToolTip": "D:\\App\\AppDataPribadi\\AppDataPribadi\\Views\\Person\\Delete.cshtml",
+              "RelativeToolTip": "AppDataPribadi\\Views\\Person\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T12:10:16.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

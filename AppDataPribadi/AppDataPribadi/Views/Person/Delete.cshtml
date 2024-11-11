@@ -1,0 +1,38 @@
+﻿@model AppDataPribadi.Models.Person
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = null; 
+}
+
+<h4>Apakah kamu yakin ingin menghapus data <span id="deleteName"></span>?</h4>
+<!-- Form untuk menghapus data -->
+<form id="deleteForm" method="post" action="@Url.Action("Delete", "Person")">
+    @Html.AntiForgeryToken()
+    <input type="hidden" id="deleteNIK" name="NIK" />
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <input type="submit" value="Hapus" class="btn btn-primary" />
+        <a href="@Url.Action("Index", "Person")" class="btn btn-secondary">Kembali</a>
+    </div>
+</form>
+
+<script>
+    
+    $(document).ready(function() {
+        
+        var name = "@Model.NamaLengkap";
+        var nik = "@Model.NIK";
+
+        
+        $('#deleteName').text(name);
+        $('#deleteNIK').val(nik);
+
+       
+        $('#form-modal').modal('show');
+    });
+
+   
+    $('#confirmDeleteButton').click(function () {
+        $('#deleteForm').submit();
+    });
+</script>

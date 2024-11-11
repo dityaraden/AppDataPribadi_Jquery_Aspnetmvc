@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AppDataPribadi.Models.Person>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="header">
+    <i class="fas fa-users"></i>
+    <h1>Aplikasi Data Pribadi</h1>
+</div>
+
+<div class="form-container">
+    <form id="searchForm">
+        <div class="mb-3">
+            <label for="nik" class="form-label">NIK</label>
+            <input type="text" class="form-control" id="nik" placeholder="Cari berdasarkan NIK">
+        </div>
+        <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" placeholder="Cari berdasarkan Nama">
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+            <button type="button" onclick="ShowInPopup('@Url.Action("Create", "Person")', 'Add Person')" class="btn btn-primary">Add</button>
+        </div>
+    </form>
+</div>
+
+<table class="table table-bordered" id="tablePerson">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>NIK</th>
+            <th>Nama Lengkap</th>
+            <th>Umur</th>
+            <th>Tanggal Lahir</th>
+            <th>Jenis Kelamin</th>
+            <th>Alamat</th>
+            <th>Negara</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Select((value, index) => new { value, index }))
+        {
+            <tr>
+                <td>@(item.index + 1)</td>
+                <td>@item.value.NIK</td>
+                <td>@item.value.NamaLengkap</td>
+                <td>@(DateTime.Now.Year - item.value.TanggalLahir.Year)</td>
+                <td>@item.value.TanggalLahir.ToString("dd-MMM-yyyy")</td>
+                <td>@item.value.JenisKelamin</td>
+                <td>@item.value.Alamat</td>
+                <td>@item.value.Negara</td>
+                <td>
+                    <a href="javascript:void(0);" onclick="ShowInPopup('@Url.Action("Details", new { id = item.value.NIK })', 'Details')" class="detail">Details</a> |
+                    <a href="javascript:void(0);" onclick="ShowInPopup('@Url.Action("Edit", new { id = item.value.NIK })', 'Edit Data')" class="edit">Edit</a> |
+                    <a href="javascript:void(0);" onclick="ShowInPopup('@Url.Action("Delete", new { id = item.value.NIK })', 'Hapus Data')" class="delete">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

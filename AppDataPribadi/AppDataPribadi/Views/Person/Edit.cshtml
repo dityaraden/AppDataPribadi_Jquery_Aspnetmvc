@@ -1,0 +1,60 @@
+﻿@model AppDataPribadi.Models.Person
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = null;
+}
+
+<div class="header">
+    <i class="fa-solid fa-user-plus"></i>
+    <h1>Aplikasi Data Pribadi</h1>
+</div>
+
+<h4>Edit Data Pribadi</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+      
+        <form id="editPersonForm" asp-action="Edit" asp-controller="Person" onsubmit="return EditForm(this);">
+            <div class="mb-3 form-group">
+                <label asp-for="NIK" class="control-label"></label>
+                <input asp-for="NIK" class="form-control" readonly />
+                <span asp-validation-for="NIK" class="text-danger"></span>
+            </div>
+            <div class="mb-3 form-group">
+                <label asp-for="NamaLengkap" class="control-label"></label>
+                <input asp-for="NamaLengkap" class="form-control" />
+                <span asp-validation-for="NamaLengkap" class="text-danger"></span>
+            </div>
+            <div class="mb-3 form-group">
+                <label asp-for="JenisKelamin" class="control-label"></label>
+                <input asp-for="JenisKelamin" class="form-control" />
+                <span asp-validation-for="JenisKelamin" class="text-danger"></span>
+            </div>
+            <div class="mb-3 form-group">
+                <label asp-for="TanggalLahir" class="control-label"></label>
+                <input asp-for="TanggalLahir" class="form-control" />
+                <span asp-validation-for="TanggalLahir" class="text-danger"></span>
+            </div>
+            <div class="mb-3 form-group">
+                <label asp-for="Alamat" class="control-label"></label>
+                <input asp-for="Alamat" class="form-control" />
+                <span asp-validation-for="Alamat" class="text-danger"></span>
+            </div>
+            <div class="mb-3 form-group">
+                <label asp-for="Negara" class="control-label"></label>
+                <input asp-for="Negara" class="form-control" />
+                <span asp-validation-for="Negara" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Ubah</button>
+                <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "Person")'">Kembali</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
